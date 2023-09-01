@@ -1,0 +1,40 @@
+.header {
+  height: 2rem;
+  background-color: #1976d2;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.margin_top_small {
+  margin-top: 10rem;
+}
+.margin_top_extra_small {
+  margin-top: 2rem;
+}
+.margin_left_small {
+  margin-left: 2rem;
+}
+.margin_right_small {
+  margin-right: 2rem;
+}
+.margin_top_meduim {
+  margin-top: 4rem;
+}
+
+.margin_left_meduim {
+  margin-left: 15rem;
+}
+.margin_left_large {
+  margin-left: 20rem;
+}
+
+.flex {
+  display: flex;
+  // justify-content: space-between;
+}
+.error_text {
+  color: red;
+}
+
+
+

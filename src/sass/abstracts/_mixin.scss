@@ -1,0 +1,16 @@
+@mixin commonSquare($color: DarkGray) {
+  background: $color;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  margin-top: 18px;
+  margin-right: 10px;
+}
+
+.square_visited {
+  @include commonSquare($color: #1976d2);
+}
+
+.square_attempted {
+  @include commonSquare($color: #50c878);
+}
